@@ -11,7 +11,9 @@ class Renderer:
         ball_position,
         player_score,
         opponent_score,
+        game_mode,
     ):
+
         screen.fill(settings.bg_color)
 
         # Desenha a barra divisória
